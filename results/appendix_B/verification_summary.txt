@@ -1,0 +1,24 @@
+TCN: 10 appendix-support rows
+  RMSE reduction range = 27.4% to 60.5%
+  NO3_1071 → NO1_1159 | Single-height | N=7663 | Raw=2.701536 | Data=2.001103 | Loss=1.973662 | Input=1.151867 | Reduction=42.4%
+  NO3_1071 → NO2_1107 | Single-height | N=2446 | Raw=2.601242 | Data=1.977907 | Loss=2.012287 | Input=1.076415 | Reduction=45.6%
+  NO3_1071 → NOT_1166 | Single-height | N=7150 | Raw=2.489793 | Data=1.709647 | Loss=1.703887 | Input=1.241814 | Reduction=27.4%
+  C039801 → C039802 | Single-height | N=4905 | Raw=2.659258 | Data=2.390891 | Loss=2.507991 | Input=1.260452 | Reduction=47.3%
+  C039802 → C039801 | Single-height | N=4905 | Raw=2.926803 | Data=3.068462 | Loss=2.840645 | Input=1.923389 | Reduction=37.3%
+  NO3_1071 → NO1_1159 | Multi-height | N=30643 | Raw=2.704974 | Data=2.224108 | Loss=2.210744 | Input=1.075578 | Reduction=51.6%
+  NO3_1071 → NO2_1107 | Multi-height | N=9772 | Raw=2.695880 | Data=2.402091 | Loss=2.453821 | Input=0.948126 | Reduction=60.5%
+  NO3_1071 → NOT_1166 | Multi-height | N=21254 | Raw=2.427693 | Data=2.028627 | Loss=2.049328 | Input=1.087636 | Reduction=46.4%
+  C039801 → C039802 | Multi-height | N=29430 | Raw=2.385869 | Data=2.329585 | Loss=2.215680 | Input=1.005089 | Reduction=56.9%
+  C039802 → C039801 | Multi-height | N=29430 | Raw=2.817045 | Data=2.322072 | Loss=2.318899 | Input=0.916432 | Reduction=60.5%
+CNN_LSTM: 10 appendix-support rows
+  RMSE reduction range = 27.4% to 55.0%
+  NO3_1071 → NO1_1159 | Single-height | N=7663 | Raw=2.701536 | Data=1.882452 | Loss=1.919808 | Input=1.046198 | Reduction=44.4%
+  NO3_1071 → NO2_1107 | Single-height | N=2446 | Raw=2.601242 | Data=2.044353 | Loss=2.035305 | Input=0.920144 | Reduction=55.0%
+  NO3_1071 → NOT_1166 | Single-height | N=7150 | Raw=2.489793 | Data=1.717765 | Loss=1.724275 | Input=1.247063 | Reduction=27.4%
+  C039801 → C039802 | Single-height | N=4905 | Raw=2.659258 | Data=2.515638 | Loss=2.571415 | Input=1.203933 | Reduction=52.1%
+  C039802 → C039801 | Single-height | N=4905 | Raw=2.926803 | Data=2.791209 | Loss=2.615338 | Input=1.374692 | Reduction=50.7%
+  NO3_1071 → NO1_1159 | Multi-height | N=30643 | Raw=2.704974 | Data=2.213493 | Loss=2.244559 | Input=1.150467 | Reduction=48.0%
+  NO3_1071 → NO2_1107 | Multi-height | N=9772 | Raw=2.695880 | Data=2.417105 | Loss=2.363138 | Input=1.212982 | Reduction=49.8%
+  NO3_1071 → NOT_1166 | Multi-height | N=21254 | Raw=2.427693 | Data=2.029471 | Loss=2.037325 | Input=1.222194 | Reduction=39.8%
+  C039801 → C039802 | Multi-height | N=29430 | Raw=2.385869 | Data=2.289766 | Loss=2.205458 | Input=1.034518 | Reduction=54.8%
+  C039802 → C039801 | Multi-height | N=29430 | Raw=2.817045 | Data=2.346786 | Loss=2.430199 | Input=1.123798 | Reduction=52.1%
